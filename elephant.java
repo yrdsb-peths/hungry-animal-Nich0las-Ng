@@ -21,5 +21,14 @@ public class Elephant extends Actor
         if(Greenfoot.isKeyDown("d")){
             move(2);
         }
+        eat();
+    }
+    
+    //make the apple disapear when the apple touches the elephant
+    public void eat(){
+        if(isTouching(Apple.class)){
+            removeTouching(Apple.class);
+            
+        }
     }
 }
