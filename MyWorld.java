@@ -21,16 +21,16 @@ public class MyWorld extends World
         Elephant elephant = new Elephant();
         addObject(elephant, 300, 300);
         
-        Apple apple = new Apple();
-        addObject(apple, 300, 0);
+        Orange orange = new Orange();
+        addObject(orange, 300, 0);
         
         createApples();
     }
     
     //creates a second apple
     public void createApples(){
-        Apple apple = new Apple();
+        Orange orange = new Orange();
         int x = Greenfoot.getRandomNumber(600);
-        addObject(apple, x, 0);
+        addObject(orange, x, 0);
     }
 }

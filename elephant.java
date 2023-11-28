@@ -25,10 +25,13 @@ public class Elephant extends Actor
     }
     
     //make the apple disapear when the apple touches the elephant
-    public void eat(){
-        if(isTouching(Apple.class)){
-            removeTouching(Apple.class);
-            
+    public void eat()
+    {
+        if(isTouching(Orange.class))
+        {
+            removeTouching(Orange.class);
+            MyWorld world = (MyWorld) getWorld();
+            world.createOrange();
         }
     }
 }
