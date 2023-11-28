@@ -24,11 +24,11 @@ public class MyWorld extends World
         Orange orange = new Orange();
         addObject(orange, 300, 0);
         
-        createApples();
+        createOrange();
     }
     
     //creates a second apple
-    public void createApples(){
+    public void createOrange(){
         Orange orange = new Orange();
         int x = Greenfoot.getRandomNumber(600);
         addObject(orange, x, 0);
