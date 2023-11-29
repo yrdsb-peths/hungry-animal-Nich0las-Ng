@@ -21,6 +21,7 @@ public class Elephant extends Actor
         if(Greenfoot.isKeyDown("d")){
             move(2);
         }
+        
         eat();
     }
     
@@ -32,6 +33,7 @@ public class Elephant extends Actor
             removeTouching(Orange.class);
             MyWorld world = (MyWorld) getWorld();
             world.createOrange();
+            world.increaseScore();
         }
     }
 }

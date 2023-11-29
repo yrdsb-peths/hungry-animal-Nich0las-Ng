@@ -15,6 +15,14 @@ public class Orange extends Actor
     public void act()
     {
         // Add your action code here.
-        setLocation(getX(), getY() + 1);
+        setLocation(getX(), getY() + 2);
+        
+        //revore apple and draw game over
+        MyWorld world = (MyWorld) getWorld();
+        if(getY() >= world.getHeight())
+        {
+            world.gameOver();
+            world.removeObject(this);
+        }
     }
 }
