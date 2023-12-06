@@ -1,7 +1,8 @@
 #Greenfoot project file
 class.Elephant.image=elephant_idle.png
-class.MyWorld.image=Beach_Background1.jpg
+class.MyWorld.image=Beach.jpg
 class.Orange.image=orange.png
+class.TitleScreen.image=Front-page.jpg
 dependency1.from=MyWorld
 dependency1.to=Label
 dependency1.type=UsesDependency
@@ -32,10 +33,10 @@ dependency8.type=UsesDependency
 dependency9.from=Elephant
 dependency9.to=Orange
 dependency9.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=1084
-editor.fx.0.y=79
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=585
 package.numDependencies=10
 package.numTargets=6
