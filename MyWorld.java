@@ -8,6 +8,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
+    /*
+     * Ivan Mak: you could add your own feature to the game in order to deviate
+     * it from the original tutorial game
+     * 
+     * otherwise the game functions pretty well 8/10 cuz i like the texture changes
+     */
     public int score = 0;
     Label scoreLabel;
     int level = 1;
